@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <link rel="stylesheet" href="./contactForm.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="first-row">
+        <h2><b>Contact us</b></h2>
+        <p>
+          We're open for any suggestion or complaint
+        </p>
+        <ul class="coordonnes">
+          <li>
+            <span class="iconify" data-icon="ic:baseline-place"></span
+            ><span>Location</span>
+          </li>
+          <li>
+            <span class="iconify" data-icon="carbon:phone-filled"></span>
+            <span>+123 4567 789</span>
+          </li>
+          <li>
+            <span class="iconify" data-icon="bi:facebook"></span>
+            <span
+              ><a
+                href="https://www.facebook.com/allgirlscode/"
+                target="_blank"
+                >AGC</a
+              ></span
+            >
+          </li>
+          <li>
+            <span class="iconify" data-icon="dashicons:admin-site-alt"></span>
+            <a href="https://www.allgirlscode.me/" target="_blank"
+                >AGC website</a
+              ></span
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="second-row">
+        <h2>Get in touch</h2>
+        <div class="form">
+          <div class="input">
+            <label for="name">Name</label>
+            <input id="Fullname" type="text" placeholder="Name" />
+          </div>
+          <div class="input">
+            <label for="email">Email</label>
+            <input classe="Email" type="email" placeholder="Email" />
+          </div>
+          <!-- <div class="input">
+            <label for="subject">CLASSE</label>
+            <input id="classe" type="text" placeholder="Classe" />
+          </div> -->
+          <div class="input message-field">
+            <label for="message">Message</label>
+            <textarea
+              id="msg"
+              placeholder="Tap your message here"
+              rows="8"
+              cols="50"
+            ></textarea>
+          </div>
+        </div>
+        <button class="btn">Submit</button>
+      </div>
+    </div>
+    <script src="../node_modules/socket.io/client-dist/socket.io.js"></script>
+    <!-- <script src="../public/script/contact.js" type="module"></script> -->
+    <script src="../public/script/Contactadm.js"></script>
+  </body>
+</html>
